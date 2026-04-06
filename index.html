@@ -7,10 +7,7 @@
   <script src="https://cdn.tailwindcss.com"></script>
 </head>
 <body class="min-h-screen bg-neutral-100 p-6 md:p-10">
-
   <div class="mx-auto max-w-6xl rounded-[32px] bg-white shadow-2xl overflow-hidden">
-
-    <!-- Header -->
     <div class="bg-gradient-to-r from-slate-900 via-slate-800 to-sky-900 px-8 py-10 text-white md:px-12">
       <div class="flex flex-col gap-4 md:flex-row md:items-end md:justify-between">
         <div>
@@ -31,174 +28,164 @@
       </div>
     </div>
 
-    <!-- Main -->
     <div class="grid gap-6 p-6 md:grid-cols-2 md:p-10">
-
-      <!-- Day1 -->
-      <section class="rounded-[28px] border border-slate-200 p-6">
+      <!-- Day 1 -->
+      <section class="rounded-[28px] border border-slate-200 bg-white p-6 shadow-sm">
         <div class="inline-flex rounded-full bg-gradient-to-r from-sky-500 to-cyan-500 px-4 py-1 text-sm font-semibold text-white">
           Day 1
         </div>
-        <h2 class="mt-4 text-2xl font-bold">2026/04/14（火）</h2>
+        <h2 class="mt-4 text-2xl font-bold text-slate-900">2026/04/14（火）</h2>
 
-        <!-- Rooms -->
         <div class="mt-6 rounded-2xl bg-slate-50 p-4">
-          <div class="text-sm font-semibold">会議室</div>
+          <div class="text-sm font-semibold text-slate-900">会議室</div>
           <div class="mt-3 flex flex-wrap gap-2">
-            <span class="badge">SSS-36-A-36A07 (12)</span>
-            <span class="badge">SSS-36-B-36B06 (10)</span>
-            <span class="badge">SSS-36-B-36B09 (8)</span>
-            <span class="badge">SSS-36-B-36B12 (8)</span>
-            <span class="badge">SSS-36-B-36B16 (10)</span>
-            <span class="badge">SSS-36-C-36C08 (12)</span>
+            <span class="rounded-full border border-slate-200 bg-white px-3 py-1 text-sm text-slate-700">SSS-36-A-36A07 (12)</span>
+            <span class="rounded-full border border-slate-200 bg-white px-3 py-1 text-sm text-slate-700">SSS-36-B-36B06 (10)</span>
+            <span class="rounded-full border border-slate-200 bg-white px-3 py-1 text-sm text-slate-700">SSS-36-B-36B09 (8)</span>
+            <span class="rounded-full border border-slate-200 bg-white px-3 py-1 text-sm text-slate-700">SSS-36-B-36B12 (8)</span>
+            <span class="rounded-full border border-slate-200 bg-white px-3 py-1 text-sm text-slate-700">SSS-36-B-36B16 (10)</span>
+            <span class="rounded-full border border-slate-200 bg-white px-3 py-1 text-sm text-slate-700">SSS-36-C-36C08 (12)</span>
           </div>
         </div>
 
         <div class="mt-6 space-y-4">
-
-          <!-- Idea -->
           <div class="rounded-2xl border border-amber-200 bg-amber-50 p-4">
-            <h3 class="text-lg font-semibold">アイデア出し</h3>
-            <p class="text-base mt-1">当日までにアイデアを出しておく／当日の差し込みもOK</p>
+            <div class="flex items-center gap-2">
+              <h3 class="text-lg font-semibold text-slate-900">アイデア出し</h3>
+            </div>
+            <p class="mt-1 text-base leading-6 text-slate-700">当日までにアイデアを出しておく／当日の差し込みもOK</p>
           </div>
 
-          <!-- 12:00 -->
-          <div class="card">
-            <div class="time">12:00</div>
-            <div>
-              <h3 class="text-lg font-semibold">全体説明</h3>
-              <p class="text-base">目的 / ルール / 評価基準の共有</p>
+          <div class="flex gap-4 rounded-2xl border border-slate-200 p-4">
+            <div class="min-w-[68px] text-lg font-bold text-slate-900">12:00</div>
+            <div class="flex-1">
+              <div class="flex items-center gap-2">
+                <h3 class="text-lg font-semibold text-slate-900">全体説明</h3>
+              </div>
+              <p class="mt-1 text-base leading-6 text-slate-600">目的 / ルール / 評価基準の共有</p>
             </div>
           </div>
 
-          <!-- 12:30 -->
-          <div class="card">
-            <div class="time">12:30</div>
-            <div>
-              <span class="tag bg-sky-100 text-sky-700">START</span>
-              <h3 class="text-lg font-semibold">スタート</h3>
-              <p class="text-base">各チームで作業開始</p>
+          <div class="flex gap-4 rounded-2xl border border-slate-200 p-4">
+            <div class="min-w-[68px] text-lg font-bold text-slate-900">12:30</div>
+            <div class="flex-1">
+              <div class="flex items-center gap-2">
+                <span class="text-xs px-2 py-0.5 rounded-full bg-sky-100 text-sky-700">START</span>
+                <h3 class="text-lg font-semibold text-slate-900">スタート</h3>
+              </div>
+              <p class="mt-1 text-base leading-6 text-slate-600">各チームで作業開始</p>
             </div>
           </div>
 
-          <!-- 15:00 -->
-          <div class="card">
-            <div class="time">15:00</div>
-            <div>
-              <span class="tag bg-amber-100 text-amber-700">BREAK</span>
-              <h3 class="text-lg font-semibold">休憩</h3>
+          <div class="flex gap-4 rounded-2xl border border-slate-200 p-4">
+            <div class="min-w-[68px] text-lg font-bold text-slate-900">15:00</div>
+            <div class="flex-1">
+              <div class="flex items-center gap-2">
+                <span class="text-xs px-2 py-0.5 rounded-full bg-amber-100 text-amber-700">BREAK</span>
+                <h3 class="text-lg font-semibold text-slate-900">休憩</h3>
+              </div>
             </div>
           </div>
 
-          <!-- 17:00 -->
-          <div class="card">
-            <div class="time">17:00</div>
-            <div>
-              <span class="tag bg-violet-100 text-violet-700">SHARE</span>
-              <h3 class="text-lg font-semibold">軽い進捗共有</h3>
-              <p class="text-base">任意参加、1チーム30秒程度</p>
+          <div class="flex gap-4 rounded-2xl border border-slate-200 p-4">
+            <div class="min-w-[68px] text-lg font-bold text-slate-900">17:00</div>
+            <div class="flex-1">
+              <div class="flex items-center gap-2">
+                <span class="text-xs px-2 py-0.5 rounded-full bg-violet-100 text-violet-700">SHARE</span>
+                <h3 class="text-lg font-semibold text-slate-900">軽い進捗共有</h3>
+              </div>
+              <p class="mt-1 text-base leading-6 text-slate-600">任意参加、1チーム30秒程度</p>
             </div>
           </div>
 
-          <!-- 18:00 -->
-          <div class="card">
-            <div class="time">18:00</div>
-            <div>
-              <h3 class="text-lg font-semibold">自由解散</h3>
-              <p class="text-base">翌日に向けて各自終了</p>
+          <div class="flex gap-4 rounded-2xl border border-slate-200 p-4">
+            <div class="min-w-[68px] text-lg font-bold text-slate-900">18:00</div>
+            <div class="flex-1">
+              <div class="flex items-center gap-2">
+                <h3 class="text-lg font-semibold text-slate-900">自由解散</h3>
+              </div>
+              <p class="mt-1 text-base leading-6 text-slate-600">翌日に向けて各自終了</p>
             </div>
           </div>
-
         </div>
       </section>
 
-      <!-- Day2 -->
-      <section class="rounded-[28px] border border-slate-200 p-6">
+      <!-- Day 2 -->
+      <section class="rounded-[28px] border border-slate-200 bg-white p-6 shadow-sm">
         <div class="inline-flex rounded-full bg-gradient-to-r from-violet-500 to-fuchsia-500 px-4 py-1 text-sm font-semibold text-white">
           Day 2
         </div>
-        <h2 class="mt-4 text-2xl font-bold">2026/04/15（水）</h2>
+        <h2 class="mt-4 text-2xl font-bold text-slate-900">2026/04/15（水）</h2>
 
-        <!-- Rooms -->
         <div class="mt-6 rounded-2xl bg-slate-50 p-4">
-          <div class="text-sm font-semibold">会議室</div>
+          <div class="text-sm font-semibold text-slate-900">会議室</div>
           <div class="mt-3 flex flex-wrap gap-2">
-            <span class="badge">SSS-36-B-36B04 (8)</span>
-            <span class="badge">SSS-36-B-36B07 (6)</span>
-            <span class="badge">SSS-36-B-36B09 (8)</span>
-            <span class="badge">SSS-36-B-36B10 (8)</span>
-            <span class="badge">SSS-36-B-36B11 (8)</span>
-            <span class="badge">SSS-36-B-36B12 (8)</span>
-            <span class="badge">SSS-36-C-36C10 (12)</span>
+            <span class="rounded-full border border-slate-200 bg-white px-3 py-1 text-sm text-slate-700">SSS-36-B-36B04 (8)</span>
+            <span class="rounded-full border border-slate-200 bg-white px-3 py-1 text-sm text-slate-700">SSS-36-B-36B07 (6)</span>
+            <span class="rounded-full border border-slate-200 bg-white px-3 py-1 text-sm text-slate-700">SSS-36-B-36B09 (8)</span>
+            <span class="rounded-full border border-slate-200 bg-white px-3 py-1 text-sm text-slate-700">SSS-36-B-36B10 (8)</span>
+            <span class="rounded-full border border-slate-200 bg-white px-3 py-1 text-sm text-slate-700">SSS-36-B-36B11 (8)</span>
+            <span class="rounded-full border border-slate-200 bg-white px-3 py-1 text-sm text-slate-700">SSS-36-B-36B12 (8)</span>
+            <span class="rounded-full border border-slate-200 bg-white px-3 py-1 text-sm text-slate-700">SSS-36-C-36C10 (12)</span>
           </div>
         </div>
 
         <div class="mt-6 space-y-4">
-
-          <!-- spacing -->
-          <div class="mt-24"></div>
-
-          <!-- 11:00 -->
-          <div class="card">
-            <div class="time">11:00</div>
-            <div>
-              <span class="tag bg-sky-100 text-sky-700">START</span>
-              <h3 class="text-lg font-semibold">スタート</h3>
-              <p class="text-base">各チームで作業開始</p>
+          <div class="mt-24 flex gap-4 rounded-2xl border border-slate-200 p-4">
+            <div class="min-w-[68px] text-lg font-bold text-slate-900">11:00</div>
+            <div class="flex-1">
+              <div class="flex items-center gap-2">
+                <span class="text-xs px-2 py-0.5 rounded-full bg-sky-100 text-sky-700">START</span>
+                <h3 class="text-lg font-semibold text-slate-900">スタート</h3>
+              </div>
+              <p class="mt-1 text-base leading-6 text-slate-600">各チームで作業開始</p>
             </div>
           </div>
 
-          <!-- Lunch -->
-          <div class="card">
-            <div class="time">12:30-14:00</div>
-            <div>
-              <span class="tag bg-amber-100 text-amber-700">BREAK</span>
-              <h3 class="text-lg font-semibold">交流会ランチ</h3>
-              <p class="text-base">お弁当あります</p>
+          <div class="flex gap-4 rounded-2xl border border-slate-200 p-4">
+            <div class="min-w-[90px] text-lg font-bold text-slate-900">12:30-14:00</div>
+            <div class="flex-1">
+              <div class="flex items-center gap-2">
+                <span class="text-xs px-2 py-0.5 rounded-full bg-amber-100 text-amber-700">BREAK</span>
+                <h3 class="text-lg font-semibold text-slate-900">交流会ランチ</h3>
+              </div>
+              <p class="mt-1 text-base leading-6 text-slate-600">お弁当あります</p>
             </div>
           </div>
 
-          <!-- Presentation -->
-          <div class="card">
-            <div class="time">16:00</div>
-            <div>
-              <span class="tag bg-cyan-100 text-cyan-700">PRESENT</span>
-              <h3 class="text-lg font-semibold">発表</h3>
-              <p class="text-base">1グループ 2〜3分</p>
+          <div class="flex gap-4 rounded-2xl border border-slate-200 p-4">
+            <div class="min-w-[68px] text-lg font-bold text-slate-900">16:00</div>
+            <div class="flex-1">
+              <div class="flex items-center gap-2">
+                <span class="text-xs px-2 py-0.5 rounded-full bg-cyan-100 text-cyan-700">PRESENT</span>
+                <h3 class="text-lg font-semibold text-slate-900">発表</h3>
+              </div>
+              <p class="mt-1 text-base leading-6 text-slate-600">1グループ 2〜3分</p>
             </div>
           </div>
 
-          <!-- Vote -->
-          <div class="card">
-            <div class="time">17:00</div>
-            <div>
-              <h3 class="text-lg font-semibold">投票・アンケート</h3>
+          <div class="flex gap-4 rounded-2xl border border-slate-200 p-4">
+            <div class="min-w-[68px] text-lg font-bold text-slate-900">17:00</div>
+            <div class="flex-1">
+              <div class="flex items-center gap-2">
+                <h3 class="text-lg font-semibold text-slate-900">投票・アンケート</h3>
+              </div>
             </div>
           </div>
 
-          <!-- Close -->
-          <div class="card">
-            <div class="time">17:30</div>
-            <div>
-              <span class="tag bg-slate-100 text-slate-700">CLOSE</span>
-              <h3 class="text-lg font-semibold">結果発表・講評</h3>
-              <p class="text-base">クロージング</p>
+          <div class="flex gap-4 rounded-2xl border border-slate-200 p-4">
+            <div class="min-w-[68px] text-lg font-bold text-slate-900">17:30</div>
+            <div class="flex-1">
+              <div class="flex items-center gap-2">
+                <span class="text-xs px-2 py-0.5 rounded-full bg-slate-100 text-slate-700">CLOSE</span>
+                <h3 class="text-lg font-semibold text-slate-900">結果発表・講評</h3>
+              </div>
+              <p class="mt-1 text-base leading-6 text-slate-600">クロージング</p>
             </div>
           </div>
-
         </div>
       </section>
-
     </div>
   </div>
-
-  <!-- utility styles -->
-  <style>
-    .card { display:flex; gap:16px; padding:16px; border-radius:16px; border:1px solid #e2e8f0; }
-    .time { min-width:70px; font-weight:bold; font-size:18px; }
-    .tag { font-size:12px; padding:2px 8px; border-radius:9999px; margin-right:6px; }
-    .badge { border:1px solid #e2e8f0; border-radius:9999px; padding:4px 10px; font-size:12px; }
-  </style>
-
 </body>
 </html>
